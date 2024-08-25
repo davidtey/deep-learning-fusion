@@ -1,0 +1,15 @@
+artifact_uri: file:///home/david/work/repos/deep-learning-pde/deep-learning-fusion/notebooks/mlruns/405903491504450805/d4443fbf74b94d90a3a548ed57c4fd37/artifacts
+end_time: 1724577274389
+entry_point_name: ''
+experiment_id: '405903491504450805'
+lifecycle_stage: active
+run_id: d4443fbf74b94d90a3a548ed57c4fd37
+run_name: dashing-gnat-222
+run_uuid: d4443fbf74b94d90a3a548ed57c4fd37
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1724576446706
+status: 3
+tags: []
+user_id: david

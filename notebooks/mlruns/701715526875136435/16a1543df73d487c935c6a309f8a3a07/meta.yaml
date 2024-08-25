@@ -1,0 +1,15 @@
+artifact_uri: file:///home/david/work/repos/deep-learning-pde/deep-learning-fusion/notebooks/mlruns/701715526875136435/16a1543df73d487c935c6a309f8a3a07/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '701715526875136435'
+lifecycle_stage: active
+run_id: 16a1543df73d487c935c6a309f8a3a07
+run_name: suave-snail-833
+run_uuid: 16a1543df73d487c935c6a309f8a3a07
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723825344994
+status: 1
+tags: []
+user_id: david

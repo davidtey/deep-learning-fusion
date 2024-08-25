@@ -1,0 +1,15 @@
+artifact_uri: file:///home/david/work/repos/deep-learning-pde/deep-learning-fusion/notebooks/mlruns/784224932684702209/5ba321cc5d0b4b6fa99501679b5a7bd3/artifacts
+end_time: 1724564063562
+entry_point_name: ''
+experiment_id: '784224932684702209'
+lifecycle_stage: active
+run_id: 5ba321cc5d0b4b6fa99501679b5a7bd3
+run_name: handsome-croc-808
+run_uuid: 5ba321cc5d0b4b6fa99501679b5a7bd3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1724563174399
+status: 3
+tags: []
+user_id: david

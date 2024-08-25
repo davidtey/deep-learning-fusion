@@ -1,0 +1,6 @@
+artifact_location: file:///home/david/work/repos/deep-learning-pde/deep-learning-fusion/notebooks/mlruns/405903491504450805
+creation_time: 1724576387512
+experiment_id: '405903491504450805'
+last_update_time: 1724576387512
+lifecycle_stage: active
+name: simple_pinn_fixed_points_v1

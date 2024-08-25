@@ -1,0 +1,21 @@
+artifact_path: simple_pinn_fixed_points_v1_model_final
+flavors:
+  python_function:
+    config:
+      device: null
+    data: data
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.pytorch
+    pickle_module_name: mlflow.pytorch.pickle_module
+    python_version: 3.12.5
+  pytorch:
+    code: null
+    model_data: data
+    pytorch_version: 2.4.0+cu121
+mlflow_version: 2.15.1
+model_size_bytes: 481251
+model_uuid: 090d19cb961942a9922a1ee8e148a71a
+run_id: 6298069a4cb6476697e5550fe963035c
+utc_time_created: '2024-08-25 08:59:59.635157'

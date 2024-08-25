@@ -1,0 +1,15 @@
+artifact_uri: file:///home/david/work/repos/deep-learning-pde/deep-learning-fusion/notebooks/mlruns/701715526875136435/75ca72ba6da3496684f4fa4d5c7c297d/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '701715526875136435'
+lifecycle_stage: active
+run_id: 75ca72ba6da3496684f4fa4d5c7c297d
+run_name: loud-whale-191
+run_uuid: 75ca72ba6da3496684f4fa4d5c7c297d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723832801144
+status: 1
+tags: []
+user_id: david

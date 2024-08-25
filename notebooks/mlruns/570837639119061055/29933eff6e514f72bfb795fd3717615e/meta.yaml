@@ -1,0 +1,15 @@
+artifact_uri: file:///home/david/work/repos/deep-learning-pde/deep-learning-fusion/notebooks/mlruns/570837639119061055/29933eff6e514f72bfb795fd3717615e/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '570837639119061055'
+lifecycle_stage: active
+run_id: 29933eff6e514f72bfb795fd3717615e
+run_name: luminous-bat-361
+run_uuid: 29933eff6e514f72bfb795fd3717615e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1724564613834
+status: 1
+tags: []
+user_id: david

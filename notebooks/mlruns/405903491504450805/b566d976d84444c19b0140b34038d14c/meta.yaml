@@ -1,0 +1,15 @@
+artifact_uri: file:///home/david/work/repos/deep-learning-pde/deep-learning-fusion/notebooks/mlruns/405903491504450805/b566d976d84444c19b0140b34038d14c/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '405903491504450805'
+lifecycle_stage: active
+run_id: b566d976d84444c19b0140b34038d14c
+run_name: gaudy-cod-576
+run_uuid: b566d976d84444c19b0140b34038d14c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1724577621787
+status: 1
+tags: []
+user_id: david

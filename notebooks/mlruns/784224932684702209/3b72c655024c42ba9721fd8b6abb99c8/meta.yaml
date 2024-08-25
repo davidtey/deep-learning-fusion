@@ -1,0 +1,15 @@
+artifact_uri: file:///home/david/work/repos/deep-learning-pde/deep-learning-fusion/notebooks/mlruns/784224932684702209/3b72c655024c42ba9721fd8b6abb99c8/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '784224932684702209'
+lifecycle_stage: active
+run_id: 3b72c655024c42ba9721fd8b6abb99c8
+run_name: defiant-crane-159
+run_uuid: 3b72c655024c42ba9721fd8b6abb99c8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1724561737883
+status: 1
+tags: []
+user_id: david

@@ -1,0 +1,21 @@
+artifact_path: double_sine_initialization_pinn_v1_model_epoch_35000
+flavors:
+  python_function:
+    config:
+      device: null
+    data: data
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.pytorch
+    pickle_module_name: mlflow.pytorch.pickle_module
+    python_version: 3.12.5
+  pytorch:
+    code: null
+    model_data: data
+    pytorch_version: 2.4.0+cu121
+mlflow_version: 2.15.1
+model_size_bytes: 63691
+model_uuid: efdfbf9c15b14a2e8483c19c96cc9b07
+run_id: d6be74647e8c4979a538e77218307baf
+utc_time_created: '2024-08-25 07:53:54.327894'

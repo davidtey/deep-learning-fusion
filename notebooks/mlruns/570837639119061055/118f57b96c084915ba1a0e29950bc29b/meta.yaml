@@ -1,0 +1,15 @@
+artifact_uri: file:///home/david/work/repos/deep-learning-pde/deep-learning-fusion/notebooks/mlruns/570837639119061055/118f57b96c084915ba1a0e29950bc29b/artifacts
+end_time: 1723820000265
+entry_point_name: ''
+experiment_id: '570837639119061055'
+lifecycle_stage: active
+run_id: 118f57b96c084915ba1a0e29950bc29b
+run_name: invincible-loon-992
+run_uuid: 118f57b96c084915ba1a0e29950bc29b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723815854047
+status: 3
+tags: []
+user_id: david

@@ -1,0 +1,21 @@
+artifact_path: "separated_pinn_v1_model_\u03F5_epoch_15000"
+flavors:
+  python_function:
+    config:
+      device: null
+    data: data
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.pytorch
+    pickle_module_name: mlflow.pytorch.pickle_module
+    python_version: 3.12.5
+  pytorch:
+    code: null
+    model_data: data
+    pytorch_version: 2.4.0+cu121
+mlflow_version: 2.15.1
+model_size_bytes: 20728
+model_uuid: 7986e83036d94bc4b62a6d9219db2afc
+run_id: 118f57b96c084915ba1a0e29950bc29b
+utc_time_created: '2024-08-16 13:54:36.537462'

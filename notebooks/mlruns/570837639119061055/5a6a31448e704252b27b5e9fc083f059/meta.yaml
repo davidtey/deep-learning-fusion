@@ -1,0 +1,15 @@
+artifact_uri: file:///home/david/work/repos/deep-learning-pde/deep-learning-fusion/notebooks/mlruns/570837639119061055/5a6a31448e704252b27b5e9fc083f059/artifacts
+end_time: 1724568829778
+entry_point_name: ''
+experiment_id: '570837639119061055'
+lifecycle_stage: active
+run_id: 5a6a31448e704252b27b5e9fc083f059
+run_name: traveling-quail-882
+run_uuid: 5a6a31448e704252b27b5e9fc083f059
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1724564670643
+status: 3
+tags: []
+user_id: david

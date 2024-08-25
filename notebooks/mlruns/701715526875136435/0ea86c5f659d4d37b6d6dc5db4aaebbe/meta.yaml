@@ -1,0 +1,15 @@
+artifact_uri: file:///home/david/work/repos/deep-learning-pde/deep-learning-fusion/notebooks/mlruns/701715526875136435/0ea86c5f659d4d37b6d6dc5db4aaebbe/artifacts
+end_time: 1723884076380
+entry_point_name: ''
+experiment_id: '701715526875136435'
+lifecycle_stage: active
+run_id: 0ea86c5f659d4d37b6d6dc5db4aaebbe
+run_name: peaceful-gnu-723
+run_uuid: 0ea86c5f659d4d37b6d6dc5db4aaebbe
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723879060543
+status: 3
+tags: []
+user_id: david

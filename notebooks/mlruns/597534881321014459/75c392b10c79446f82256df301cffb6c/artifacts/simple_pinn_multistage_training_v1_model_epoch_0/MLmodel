@@ -1,0 +1,21 @@
+artifact_path: simple_pinn_multistage_training_v1_model_epoch_0
+flavors:
+  python_function:
+    config:
+      device: null
+    data: data
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.pytorch
+    pickle_module_name: mlflow.pytorch.pickle_module
+    python_version: 3.12.5
+  pytorch:
+    code: null
+    model_data: data
+    pytorch_version: 2.4.0+cu121
+mlflow_version: 2.15.1
+model_size_bytes: 481251
+model_uuid: dcff73c84cab49f1a81a797d11d78427
+run_id: 75c392b10c79446f82256df301cffb6c
+utc_time_created: '2024-08-25 12:15:01.084971'

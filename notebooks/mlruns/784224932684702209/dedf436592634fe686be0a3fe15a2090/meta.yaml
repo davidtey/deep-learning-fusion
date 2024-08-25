@@ -1,0 +1,15 @@
+artifact_uri: file:///home/david/work/repos/deep-learning-pde/deep-learning-fusion/notebooks/mlruns/784224932684702209/dedf436592634fe686be0a3fe15a2090/artifacts
+end_time: 1723824566833
+entry_point_name: ''
+experiment_id: '784224932684702209'
+lifecycle_stage: active
+run_id: dedf436592634fe686be0a3fe15a2090
+run_name: big-toad-584
+run_uuid: dedf436592634fe686be0a3fe15a2090
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723824529482
+status: 3
+tags: []
+user_id: david

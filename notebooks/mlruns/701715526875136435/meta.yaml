@@ -1,0 +1,6 @@
+artifact_location: file:///home/david/work/repos/deep-learning-pde/deep-learning-fusion/notebooks/mlruns/701715526875136435
+creation_time: 1723821614062
+experiment_id: '701715526875136435'
+last_update_time: 1723821614062
+lifecycle_stage: active
+name: double_sine_initialization_pinn_v1

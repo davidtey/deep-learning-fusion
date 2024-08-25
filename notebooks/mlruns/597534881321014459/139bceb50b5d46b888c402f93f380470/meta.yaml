@@ -1,0 +1,15 @@
+artifact_uri: file:///home/david/work/repos/deep-learning-pde/deep-learning-fusion/notebooks/mlruns/597534881321014459/139bceb50b5d46b888c402f93f380470/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '597534881321014459'
+lifecycle_stage: active
+run_id: 139bceb50b5d46b888c402f93f380470
+run_name: rumbling-zebra-508
+run_uuid: 139bceb50b5d46b888c402f93f380470
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1724588068283
+status: 1
+tags: []
+user_id: david

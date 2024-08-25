@@ -1,0 +1,15 @@
+artifact_uri: file:///home/david/work/repos/deep-learning-pde/deep-learning-fusion/notebooks/mlruns/405903491504450805/6298069a4cb6476697e5550fe963035c/artifacts
+end_time: 1724576401965
+entry_point_name: ''
+experiment_id: '405903491504450805'
+lifecycle_stage: active
+run_id: 6298069a4cb6476697e5550fe963035c
+run_name: secretive-fowl-692
+run_uuid: 6298069a4cb6476697e5550fe963035c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1724576387624
+status: 3
+tags: []
+user_id: david

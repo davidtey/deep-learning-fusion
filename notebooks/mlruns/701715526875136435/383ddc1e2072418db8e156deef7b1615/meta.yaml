@@ -1,0 +1,15 @@
+artifact_uri: file:///home/david/work/repos/deep-learning-pde/deep-learning-fusion/notebooks/mlruns/701715526875136435/383ddc1e2072418db8e156deef7b1615/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '701715526875136435'
+lifecycle_stage: active
+run_id: 383ddc1e2072418db8e156deef7b1615
+run_name: unleashed-shark-492
+run_uuid: 383ddc1e2072418db8e156deef7b1615
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723832743340
+status: 1
+tags: []
+user_id: david
