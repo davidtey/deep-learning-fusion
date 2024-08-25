@@ -1,2 +1,2 @@
-notebooks/mlruns/*
-notebooks/plots/*
+notebooks/plots/*/*.png
+notebooks/mlruns/*/*/*/*.png
