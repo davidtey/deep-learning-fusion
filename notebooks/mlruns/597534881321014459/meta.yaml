@@ -1,6 +1,0 @@
-artifact_location: file:///home/david/work/repos/deep-learning-pde/deep-learning-fusion/notebooks/mlruns/597534881321014459
-creation_time: 1724588068132
-experiment_id: '597534881321014459'
-last_update_time: 1724588068132
-lifecycle_stage: active
-name: simple_pinn_multistage_training_v1

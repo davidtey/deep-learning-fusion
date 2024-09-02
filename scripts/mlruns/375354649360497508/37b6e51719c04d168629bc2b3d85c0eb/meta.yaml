@@ -1,0 +1,15 @@
+artifact_uri: file:///home/david/work/repos/deep-learning-pde/deep-learning-fusion/scripts/mlruns/375354649360497508/37b6e51719c04d168629bc2b3d85c0eb/artifacts
+end_time: 1725257376461
+entry_point_name: ''
+experiment_id: '375354649360497508'
+lifecycle_stage: active
+run_id: 37b6e51719c04d168629bc2b3d85c0eb
+run_name: peaceful-croc-852
+run_uuid: 37b6e51719c04d168629bc2b3d85c0eb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725257373987
+status: 3
+tags: []
+user_id: david

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/david/work/repos/deep-learning-pde/deep-learning-fusion/scripts/mlruns/375354649360497508/35f5687706a147d6844b343a92820869/artifacts
+end_time: 1725257404685
+entry_point_name: ''
+experiment_id: '375354649360497508'
+lifecycle_stage: active
+run_id: 35f5687706a147d6844b343a92820869
+run_name: unequaled-whale-53
+run_uuid: 35f5687706a147d6844b343a92820869
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725257400317
+status: 3
+tags: []
+user_id: david

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/david/work/repos/deep-learning-pde/deep-learning-fusion/scripts/mlruns/375354649360497508/c5720fcba2944a7dbba02f9f825e0bcc/artifacts
+end_time: 1725257491852
+entry_point_name: ''
+experiment_id: '375354649360497508'
+lifecycle_stage: active
+run_id: c5720fcba2944a7dbba02f9f825e0bcc
+run_name: able-mare-710
+run_uuid: c5720fcba2944a7dbba02f9f825e0bcc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725257474918
+status: 3
+tags: []
+user_id: david

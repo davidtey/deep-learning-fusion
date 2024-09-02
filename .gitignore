@@ -1,2 +1,4 @@
 notebooks/plots/*/*.png
 notebooks/mlruns/*/*/*/*.png
+scripts/plots/*/*.png
+scripts/mlruns/*/*/*/*.png

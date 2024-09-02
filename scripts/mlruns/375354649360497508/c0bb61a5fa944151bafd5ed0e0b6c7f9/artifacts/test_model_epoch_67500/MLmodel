@@ -1,0 +1,21 @@
+artifact_path: test_model_epoch_67500
+flavors:
+  python_function:
+    config:
+      device: null
+    data: data
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.pytorch
+    pickle_module_name: mlflow.pytorch.pickle_module
+    python_version: 3.12.5
+  pytorch:
+    code: null
+    model_data: data
+    pytorch_version: 2.4.0+cu121
+mlflow_version: 2.15.1
+model_size_bytes: 72971
+model_uuid: f13e5c6b11644ad0ba479e798a7a66ef
+run_id: c0bb61a5fa944151bafd5ed0e0b6c7f9
+utc_time_created: '2024-09-02 07:54:45.184684'
