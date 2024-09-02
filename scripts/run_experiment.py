@@ -1,4 +1,5 @@
 import subprocess
+import os
 
 args = {
     '--experiment_name': 'test',
@@ -39,6 +40,12 @@ for k, v in args.items():
 command = ['python', 'train_fusion_pinn.py'] + arglist
 
 print(f"executing {command}")
+
+cwd = os.getcwd()
+log_dir = os.path.join(cwd, "logs")
+
+if not os.path.isdir(log_dir):
+    os.makedirs(log_dir)
 
 f = open(f"logs/test.log", "w")
 subprocess.call(command, stdout=f, stderr=f)

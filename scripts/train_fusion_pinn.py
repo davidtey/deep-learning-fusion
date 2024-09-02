@@ -521,7 +521,7 @@ class PINN(nn.Module):
         u_init.requires_grad_()
         ϵ_init.requires_grad_()
         
-        for i in tqdm(range(self.args.sine_initialisation_epochs)):
+        for i in tqdm(range(self.args.sine_initialisation_epochs), disable=True):
             self.optimizer.zero_grad()
             Y = self(torch.hstack((T_init, X_init)))
             
@@ -639,7 +639,7 @@ class PINN(nn.Module):
         mlflow.log_params(vars(self.args))
         mlflow.log_param("num_parameters", self.num_parameters)
         
-        for epoch in tqdm(range(self.args.epochs), position=0, leave=True, desc='Training...'): 
+        for epoch in tqdm(range(self.args.epochs), position=0, leave=True, desc='Training...', disable=True): 
             self.epoch = epoch
             
             # eval
@@ -690,6 +690,7 @@ class PINN(nn.Module):
                 print(f"initial_n_loss: {initial_n_loss.item():.4e}, initial_u_loss: {initial_u_loss.item():.4e}, initial_ϵ_loss: {initial_ϵ_loss.item():.4e}")
                 print(f"boundary_n_loss: {boundary_n_loss.item():.4e}, boundary_u_loss: {boundary_u_loss.item():.4e}, boundary_ϵ_x_loss: {boundary_ϵ_x_loss.item():.4e}")
                 print("total_loss is NaN, stopping training...")
+                mlflow.log_text("error", "total_loss is NaN, stopping training...")
                 break
     
         mlflow.pytorch.log_model(self.model, f"{self.args.experiment_name}_model_final")

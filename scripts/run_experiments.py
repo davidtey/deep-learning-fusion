@@ -1,4 +1,5 @@
 import subprocess
+import os
 from itertools import product
 from tqdm.auto import tqdm
 
@@ -14,7 +15,13 @@ force_positive_method = ['exp', 'abs']
 
 params = [interior_loss_function, initial_boundary_loss_function, layers, width, learning_rate, sine_initialisation, multistage_training, force_positive_method]
 
-print(f"Number of experiments: {len(product(*params))}")
+print(f"Number of experiments: {len(list(product(*params)))}")
+
+cwd = os.getcwd()
+log_dir = os.path.join(cwd, "logs")
+
+if not os.path.isdir(log_dir):
+    os.makedirs(log_dir)
 
 for param in tqdm(product(*params)):
     interior_loss_function = param[0]
