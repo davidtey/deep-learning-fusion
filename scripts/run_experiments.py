@@ -4,9 +4,9 @@ from itertools import product
 from tqdm.auto import tqdm
 
 interior_loss_function = ['l1', 'l2']
-initial_boundary_loss_function = ['l1', 'l2', 'linf']
-layers = [4, 8]
-width = [64, 128]
+initial_boundary_loss_function = ['l1', 'linf']
+layers = [4]
+width = [64]
 learning_rate = [1e-3, 1e-4]
 sine_initialisation = [True, False]
 multistage_training = [True, False]
