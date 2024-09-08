@@ -76,6 +76,7 @@ for param in tqdm(product(*params)):
 
     command = ['python', 'train_fusion_pinn.py'] + arglist
 
+    print()
     print("-------------------------")
     print(f"executing {command}")
     print("-------------------------")
