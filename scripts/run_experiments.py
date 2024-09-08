@@ -31,8 +31,8 @@ for param in tqdm(product(*params)):
     learning_rate = param[4]
     sine_initialisation = param[5]
     multistage_training = param[6]
-    force_positive_method = param[7]
-    separate_models = param[8]
+    separate_models = param[7]
+    force_positive_method = param[8]
     
     experiment_name = f"intloss_{interior_loss_function}_boundloss_{initial_boundary_loss_function}_layers_{layers}_width_{width}_lr_{learning_rate}_sine_{sine_initialisation}_multistage_{multistage_training}_force_{force_positive_method}_separate_{separate_models}"
 
@@ -76,8 +76,10 @@ for param in tqdm(product(*params)):
 
     command = ['python', 'train_fusion_pinn.py'] + arglist
 
+    print("-------------------------")
     print(f"executing {command}")
-
+    print("-------------------------")
+    
     f = open(f"logs/{experiment_name}.log", "w")
     
     process = subprocess.Popen(command, stdout=f, stderr=f)
