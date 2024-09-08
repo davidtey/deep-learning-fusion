@@ -18,6 +18,11 @@ import argparse
 
 parser = argparse.ArgumentParser(description="Train Fusion PINN")
 
+def boolean_string(s):
+    if s not in {'False', 'True'}:
+        raise ValueError('Not a valid boolean string')
+    return s == 'True'
+
 # Compulsory arguments
 parser.add_argument("-n", "--experiment_name", type=str, default="fusion_pinn", help="Name of the experiment")
 parser.add_argument("-l", "--layers", type=int, default=4, help="Number of layers")
@@ -42,19 +47,19 @@ parser.add_argument("-d", "--device", type=str, default="cuda", help="Device to 
 parser.add_argument("-p", "--precision", type=str, default="float64", help="Precision")
 
 # Optional sine initialisation
-parser.add_argument("-sinit", "--sine_initialisation", type=bool, default=False, help="Sine initialisation")
+parser.add_argument("-sinit", "--sine_initialisation", type=boolean_string, default=False, help="Sine initialisation")
 parser.add_argument("-sinit_epochs", "--sine_initialisation_epochs", type=int, default=100000, help="Sine initialisation epochs")
 parser.add_argument("-sinit_lr", "--sine_initialisation_learning_rate", type=float, default=1e-3, help="Sine initialisation learning rate")
 parser.add_argument("-sinit_ei", "--sine_initialisation_eval_interval", type=int, default=5000, help="Sine initialisation evaluation interval")
 
 # Optional multistage training
-parser.add_argument("-mst", "--multistage_training", type=bool, default=False, help="Multistage training")
+parser.add_argument("-mst", "--multistage_training", type=boolean_string, default=False, help="Multistage training")
 
 # Optional separate modeling
-parser.add_argument("-sm", "--separate_models", type=bool, default=False, help="Separate models")
+parser.add_argument("-sm", "--separate_models", type=boolean_string, default=False, help="Separate models")
 
 # Outputs
-parser.add_argument("-po", "--plot_outputs", type=bool, default=True, help="Plot outputs")
+parser.add_argument("-po", "--plot_outputs", type=boolean_string, default=True, help="Plot outputs")
 parser.add_argument("-pv", "--plot_vars", type=str, default="n, n_t, n_x, n_xx, u, u_t, u_x, u_xx, ϵ, ϵ_t, ϵ_x", help="Variables to plot")
 
 args = parser.parse_args()
@@ -116,6 +121,9 @@ assert args.sine_initialisation_learning_rate > 0
 assert 0 < args.sine_initialisation_eval_interval <= args.sine_initialisation_epochs
 assert set(args.plot_vars).issubset(["n", "n_t", "n_x", "n_xx", "u", "u_t", "u_x", "u_xx", "ϵ", "ϵ_t", "ϵ_x"])
 
+# if args.sine_initialisation:
+#     print(f"Sine initialisation enabled: {args.sine_initialisation}, {type(args.sine_initialisation)}")
+
 class Exponentialϵ(nn.Module):
     def __init__(self):
         super(Exponentialϵ, self).__init__()
@@ -157,7 +165,10 @@ class ForcePositiveϵ(nn.Module):
         self.ε.to(args.device)
             
     def forward(self, x):
-        return torch.hstack((self.n(x), self.u(x), self.ε(x)))
+        n = x[:, :args.width]
+        u = x[:, args.width:2*args.width]
+        ϵ = x[:, 2*args.width:]
+        return torch.hstack((self.n(n), self.u(u), self.ε(ϵ)))
     
     def parameters(self):
         return list(self.n.parameters()) + list(self.u.parameters()) + list(self.ε.parameters())
