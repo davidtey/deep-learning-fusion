@@ -79,4 +79,6 @@ for param in tqdm(product(*params)):
     print(f"executing {command}")
 
     f = open(f"logs/{experiment_name}.log", "w")
-    subprocess.run(command, stdout=f, stderr=f)
+    
+    process = subprocess.Popen(command, stdout=f, stderr=f)
+    out = process.wait()
