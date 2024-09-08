@@ -49,3 +49,4 @@ if not os.path.isdir(log_dir):
 
 f = open(f"logs/test.log", "w")
 subprocess.call(command, stdout=f, stderr=f)
+

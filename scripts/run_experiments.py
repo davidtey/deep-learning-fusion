@@ -13,7 +13,7 @@ multistage_training = [True, False]
 separate_models = [True, False]
 force_positive_method = ['exp', 'abs']
 
-params = [interior_loss_function, initial_boundary_loss_function, layers, width, learning_rate, sine_initialisation, multistage_training, force_positive_method]
+params = [interior_loss_function, initial_boundary_loss_function, layers, width, learning_rate, sine_initialisation, multistage_training, separate_models, force_positive_method]
 
 print(f"Number of experiments: {len(list(product(*params)))}")
 
