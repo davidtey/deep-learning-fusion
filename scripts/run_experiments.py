@@ -34,7 +34,7 @@ for param in tqdm(product(*params)):
     separate_models = param[7]
     force_positive_method = param[8]
     
-    experiment_name = f"intloss_{interior_loss_function}_boundloss_{initial_boundary_loss_function}_layers_{layers}_width_{width}_lr_{learning_rate}_sine_{sine_initialisation}_multistage_{multistage_training}_force_{force_positive_method}_separate_{separate_models}"
+    experiment_name = f"intloss_{interior_loss_function}_boundloss_{initial_boundary_loss_function}_layers_{layers}_width_{width}_lr_{learning_rate}_sine_{sine_initialisation}_multistage_{multistage_training}_separate_{separate_models}_force_{force_positive_method}"
 
     args = {
         '--experiment_name': experiment_name,
