@@ -81,4 +81,4 @@ for param in tqdm(product(*params)):
     f = open(f"logs/{experiment_name}.log", "w")
     
     process = subprocess.Popen(command, stdout=f, stderr=f)
-    out = process.wait()
+    out = process.communicate()
