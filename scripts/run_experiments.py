@@ -79,4 +79,4 @@ for param in tqdm(product(*params)):
     print(f"executing {command}")
 
     f = open(f"logs/{experiment_name}.log", "w")
-    subprocess.call(command, stdout=f, stderr=f)
+    subprocess.run(command, stdout=f, stderr=f)
