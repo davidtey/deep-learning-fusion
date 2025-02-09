@@ -1,0 +1,15 @@
+artifact_uri: file:///home/david/work/repos/deep-learning-pde/deep-learning-fusion/notebooks/mlruns/487252260711282607/e3c322f264614d1c99727d61b04ec88b/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '487252260711282607'
+lifecycle_stage: active
+run_id: e3c322f264614d1c99727d61b04ec88b
+run_name: invincible-midge-90
+run_uuid: e3c322f264614d1c99727d61b04ec88b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737353879176
+status: 1
+tags: []
+user_id: david

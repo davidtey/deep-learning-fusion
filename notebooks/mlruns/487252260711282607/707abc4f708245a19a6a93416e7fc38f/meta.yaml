@@ -1,0 +1,15 @@
+artifact_uri: file:///home/david/work/repos/deep-learning-pde/deep-learning-fusion/notebooks/mlruns/487252260711282607/707abc4f708245a19a6a93416e7fc38f/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '487252260711282607'
+lifecycle_stage: active
+run_id: 707abc4f708245a19a6a93416e7fc38f
+run_name: treasured-midge-251
+run_uuid: 707abc4f708245a19a6a93416e7fc38f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737353777083
+status: 1
+tags: []
+user_id: david

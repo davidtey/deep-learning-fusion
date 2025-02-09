@@ -1,0 +1,21 @@
+artifact_path: cahn_hilliard_model_epoch_0
+flavors:
+  python_function:
+    config:
+      device: null
+    data: data
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.pytorch
+    pickle_module_name: mlflow.pytorch.pickle_module
+    python_version: 3.12.3
+  pytorch:
+    code: null
+    model_data: data
+    pytorch_version: 2.4.0+cu121
+mlflow_version: 2.15.1
+model_size_bytes: 57065
+model_uuid: b804717bbf0d44a7ac999db5f68ed3c2
+run_id: e3c322f264614d1c99727d61b04ec88b
+utc_time_created: '2025-01-20 06:17:59.476641'

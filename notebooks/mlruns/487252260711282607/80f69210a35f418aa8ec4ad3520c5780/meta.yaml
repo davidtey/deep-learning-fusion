@@ -1,0 +1,15 @@
+artifact_uri: file:///home/david/work/repos/deep-learning-pde/deep-learning-fusion/notebooks/mlruns/487252260711282607/80f69210a35f418aa8ec4ad3520c5780/artifacts
+end_time: 1737430964120
+entry_point_name: ''
+experiment_id: '487252260711282607'
+lifecycle_stage: active
+run_id: 80f69210a35f418aa8ec4ad3520c5780
+run_name: clumsy-hen-498
+run_uuid: 80f69210a35f418aa8ec4ad3520c5780
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737430497316
+status: 3
+tags: []
+user_id: david
